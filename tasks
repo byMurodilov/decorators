@@ -1,0 +1,86 @@
+#1
+#from functools import wraps   
+#
+#def savol_2X2(func):
+#  def wrapper(*args,**kwargs):
+#    answer_sheet = input("2**2 javoini toping?")
+#    if answer_sheet == 4:
+#      return func(*args, **kwargs)
+#    else:
+#      print("Dasturda XATOLIK aniqlandi!")
+#      return  None
+#  return wrapper
+#
+#
+#def misol():
+#  return "Finally, WORED"
+#res = misol()
+#print(f"Natijasi: {res} .")
+
+
+#2
+#from functools import wraps
+#
+#def is_2X2(func):
+#  def wrapper(*args, **kwargs):
+#    answ = input("2 karrra 2 ?")
+#    if answ == "4":
+#      res = func(*args, **kwargs)
+#      return res
+#    else:
+#        raise ValueError("Javobingiz xato! iltimos keyinroq urinib ko'ring")
+#  return wrapper
+#
+#
+#def expl():
+#  return "Suyunchi, funksiya ishlab ketti"
+#
+#
+#try:
+#  res = expl()
+#  print(f"Natija chiqarildi. {res}")
+#except ValueError as err:
+#  print(f"Xatolik aniqlandi: {err}")
+
+
+
+#3
+#import time 
+#from functools import wraps
+#
+#def waqt_dr(func):
+#  def wrapper(*args, **kwargs):
+#    begin_millisec = time.time()
+#    res = func(*args, **kwars)
+#    finish_time = time.time()
+#    print(f"Olingan WAQT: {finish_time - begin_millisec} sikunds")
+#    return res
+#  return wrapper
+#
+#
+#def examples():
+#  return "Dastur ishladi, SUCCESS!"
+#
+#res2 = examples()
+#print(f"Natijasi chiqdi: {res2}")
+
+
+#4
+#import time 
+#from functools import wraps
+#
+#def intr_waqt(func):
+#  def wrapper(*args, **kwargs)
+#    firstly = time.time()
+#    res = func(*args, **kwargs)
+#    secondly = time.time()
+#    print(f"AVG == {secondly - firstly} sikunds")
+#    return res
+#  return wrapper
+#
+#
+#def exame():
+#  return "RAVON ishlayapti!"
+#
+#result = exame()
+#print(f"Hisoblangan natija: {result}")
